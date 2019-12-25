@@ -7289,7 +7289,7 @@ body {
     position: fixed;
     top: 0px;
     overflow: hidden;
-    background-color: #121212;
+    background-color: transparent;
     content: "";
     display: table;
     table-layout: fixed;
@@ -7300,7 +7300,7 @@ body {
     height: 100%;
     z-index: 99;
     max-width: 100%;
-    background-color: #2f89fc;
+    background-color: #0ad6ff;
     -webkit-transition: width .6s ease;
     -o-transition: width .6s ease;
     transition: width .6s ease; }
