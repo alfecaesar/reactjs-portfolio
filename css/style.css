@@ -8762,3 +8762,32 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+  .portfolio-img a img{
+    width: 100%;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: all 1s ease;
+  }
+  .portfolio-img a:hover img{
+    -webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+   filter: grayscale(0%);
+   transform: scale(1.1);
+  }
+  .portfolio-img h4{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 400;
+    color:
+    #8c8c8c;
+  }
+  .ftco-footer-social li a:hover{
+    transform: scale(1.2);
+  }
