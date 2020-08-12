@@ -8791,3 +8791,7 @@ textarea.form-control {
   .ftco-footer-social li a:hover{
     transform: scale(1.2);
   }
+
+  #section-counter .container{
+    max-width: 1920px;
+  }
